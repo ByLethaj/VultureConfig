@@ -31,7 +31,7 @@ Scaffold:ScaffoldShow in List:false
 AutoArmor:AutoArmorOpen inventory:true
 AutoArmor:AutoArmorDelay:63.0
 AutoArmor:AutoArmorShow in List:true
-Speed:SpeedModes:JartexHop2
+Speed:SpeedModes:lowhop
 Speed:SpeedShow in List:true
 RenderChanger:RenderChangerItem to view:false
 RenderChanger:RenderChangerHigher held item:false
