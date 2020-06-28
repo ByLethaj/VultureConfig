@@ -14,7 +14,7 @@ Fly:FlyMotion y:1.0
 Fly:FlyBoost:1.0
 Fly:FlyCube boost motion y:0.31
 Fly:FlyShow in List:true
-Speed:SpeedModes:CubecraftHop
+Speed:SpeedModes:CubecraftHop2
 Speed:SpeedShow in List:true
 ChestStealer:ChestStealerClose screen:true
 ChestStealer:ChestStealerCheck name:true
