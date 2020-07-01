@@ -3,10 +3,10 @@ InventoryCleaner:InventoryCleanerOpen inventory:true
 InventoryCleaner:InventoryCleanerSort inventory:false
 InventoryCleaner:InventoryCleanerDelay:81.0
 InventoryCleaner:InventoryCleanerSword slot:1.0
-InventoryCleaner:InventoryCleanerAxe slot:1.0
-InventoryCleaner:InventoryCleanerPickAxe slot:1.0
-InventoryCleaner:InventoryCleanerSpade slot:1.0
-InventoryCleaner:InventoryCleanerBow slot:1.0
+InventoryCleaner:InventoryCleanerAxe slot:9.0
+InventoryCleaner:InventoryCleanerPickAxe slot:2.0
+InventoryCleaner:InventoryCleanerSpade slot:4.0
+InventoryCleaner:InventoryCleanerBow slot:3.0
 InventoryCleaner:InventoryCleanerShow in List:true
 Fly:FlyModes:CubecraftBoost
 Fly:FlyAir bobbing:true
