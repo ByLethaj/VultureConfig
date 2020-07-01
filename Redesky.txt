@@ -16,7 +16,7 @@ EntityESP:EntityESPAlpha:50.0
 EntityESP:EntityESPShow in List:true
 ChestStealer:ChestStealerClose screen:true
 ChestStealer:ChestStealerCheck name:true
-ChestStealer:ChestStealerDelay:123.0
+ChestStealer:ChestStealerDelay:20.0
 ChestStealer:ChestStealerOpening delay:214.0
 ChestStealer:ChestStealerShow in List:true
 AutoArmor:AutoArmorOpen inventory:true
