@@ -8,12 +8,14 @@ InventoryCleaner:InventoryCleanerPickAxe slot:2.0
 InventoryCleaner:InventoryCleanerSpade slot:4.0
 InventoryCleaner:InventoryCleanerBow slot:3.0
 InventoryCleaner:InventoryCleanerShow in List:true
+Speed:SpeedModes:CubecraftHop2
+Speed:SpeedShow in List:true
 Fly:FlyModes:CubecraftBoost
 Fly:FlyAir bobbing:true
 Fly:FlyMotion y:1.0
 Fly:FlyBoost:1.0
-Speed:SpeedModes:CubecraftHop2
-Speed:SpeedShow in List:true
+Fly:FlyCube boost motion y:0.31
+Fly:FlyShow in List:true
 ChestStealer:ChestStealerClose screen:true
 ChestStealer:ChestStealerCheck name:true
 ChestStealer:ChestStealerDelay:60.0
@@ -43,6 +45,9 @@ EntityESP:EntityESPShow in List:true
 BlockOverlay:BlockOverlayDepth:false
 BlockOverlay:BlockOverlayShow in List:true
 AutoRespawn:AutoRespawnShow in List:true
+Swing:SwingModes:Normal
+Swing:SwingBlockModes:Stab
+Swing:SwingShow in List:true
 InfiniteReach:InfiniteReachHit delay:2000.0
 InfiniteReach:InfiniteReachAura:false
 InfiniteReach:InfiniteReachBlockPos:false
@@ -82,11 +87,11 @@ AutoClicker:AutoClickerMax CPS:20.0
 AutoClicker:AutoClickerMin CPS:15.0
 AutoClicker:AutoClickerPlace:true
 AutoClicker:AutoClickerShow in List:true
+ItemPhysics:ItemPhysicsShow in List:true
 Velocity:VelocityModes:NCP
 Velocity:VelocityHorizontal:0.0
 Velocity:VelocityVertical:0.0
 Velocity:VelocityShow in List:true
-ItemPhysics:ItemPhysicsShow in List:true
 DamageHits:DamageHitsShow in List:true
 NoHurtCam:NoHurtCamShow in List:true
 BowAimbot:BowAimbotAimlock:false
@@ -112,6 +117,15 @@ CubeClip:CubeClipShow in List:true
 Teleport:TeleportShow in List:true
 FreeCam:FreeCamNoClip:true
 FreeCam:FreeCamShow in List:true
+ClickGui:ClickGuiAnimations:true
+ClickGui:ClickGuiParticles:true
+ClickGui:ClickGuiFlow:true
+ClickGui:ClickGuiFlow factor:3.0
+ClickGui:ClickGuiTheme:Dark
+ClickGui:ClickGuiShow in List:true
+Tracers:TracersFeet:false
+Tracers:TracersOutlined:true
+Tracers:TracersShow in List:true
 Aura:AuraAuto block:true
 Aura:AuraPredict:true
 Aura:AuraAimlock:false
@@ -128,7 +142,7 @@ Aura:AuraFail hit:false
 Aura:AuraPlayers:true
 Aura:AuraAnimals:false
 Aura:AuraMobs:false
-Aura:AuraRange:6.0
+Aura:AuraRange:4.5
 Aura:AuraMax CPS:20.0
 Aura:AuraMin CPS:19.0
 Aura:AuraMax turn speed:180.0
@@ -138,15 +152,6 @@ Aura:AuraFail hit count:5.0
 Aura:AuraWall range:3.0
 Aura:AuraESP modes:Circle
 Aura:AuraShow in List:true
-ClickGui:ClickGuiAnimations:true
-ClickGui:ClickGuiParticles:true
-ClickGui:ClickGuiFlow:true
-ClickGui:ClickGuiFlow factor:3.0
-ClickGui:ClickGuiTheme:Dark
-ClickGui:ClickGuiShow in List:true
-Tracers:TracersFeet:false
-Tracers:TracersOutlined:true
-Tracers:TracersShow in List:true
 CamClip:CamClipShow in List:true
 NoSlow:NoSlowStrafe factor:1.0
 NoSlow:NoSlowForward factor:1.0
@@ -157,6 +162,8 @@ FastUse:FastUsePackets:1.0
 FastUse:FastUseShow in List:true
 Friends:FriendsCancel attacks:true
 Friends:FriendsShow in List:true
+Step:StepHeight:3.0
+Step:StepShow in List:true
 NoFall:NoFallModes:Vanilla
 NoFall:NoFallShow in List:true
 Fucker:FuckerModes:Egg
@@ -180,16 +187,11 @@ Tower:TowerDelay:96.0
 Tower:TowerTimer speed:2.0
 Tower:TowerModes:Cubecraft
 Tower:TowerShow in List:true
-Swing:SwingModes:Normal
-Swing:SwingBlockModes:Normal
-Swing:SwingShow in List:true
 Teams:TeamsShow in List:true
 Reach:ReachAttack range:7.0
 Reach:ReachInteract range:7.0
 Reach:ReachShow in List:true
 Blink:BlinkShow in List:true
-Step:StepHeight:3.0
-Step:StepShow in List:true
 HUD:HUDNotifications:true
 HUD:HUDLogo:true
 HUD:HUDInfo:true
@@ -212,3 +214,4 @@ Clip:ClipStrength:3.0
 Clip:ClipShow in List:true
 FOV:FOVValue:2.0
 FOV:FOVShow in List:true
+
