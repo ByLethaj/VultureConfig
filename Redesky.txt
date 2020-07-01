@@ -3,22 +3,26 @@ InventoryCleaner:InventoryCleanerOpen inventory:true
 InventoryCleaner:InventoryCleanerSort inventory:true
 InventoryCleaner:InventoryCleanerDelay:164.0
 InventoryCleaner:InventoryCleanerSword slot:1.0
+InventoryCleaner:InventoryCleanerAxe slot:3.0
+InventoryCleaner:InventoryCleanerPickAxe slot:2.0
+InventoryCleaner:InventoryCleanerSpade slot:6.0
+InventoryCleaner:InventoryCleanerBow slot:5.0
 InventoryCleaner:InventoryCleanerShow in List:true
-EntityESP:EntityESPIgnore nametags:false
-EntityESP:EntityESPPlayers:true
-EntityESP:EntityESPAnimals:true
-EntityESP:EntityESPMobs:true
-EntityESP:EntityESPItems:true
-EntityESP:EntityESPClient color:true
-EntityESP:EntityESPModes:Minecraft
-EntityESP:EntityESPWidth:1.5
-EntityESP:EntityESPAlpha:50.0
-EntityESP:EntityESPShow in List:true
 ChestStealer:ChestStealerClose screen:true
 ChestStealer:ChestStealerCheck name:true
 ChestStealer:ChestStealerDelay:20.0
-ChestStealer:ChestStealerOpening delay:20.0
+ChestStealer:ChestStealerOpening delay:214.0
 ChestStealer:ChestStealerShow in List:true
+Scaffold:ScaffoldSprint:true
+Scaffold:ScaffoldSneak:false
+Scaffold:ScaffoldSilent:true
+Scaffold:ScaffoldTimer:false
+Scaffold:ScaffoldNo swing:true
+Scaffold:ScaffoldDisplay block count:true
+Scaffold:ScaffoldDelay:0.0
+Scaffold:ScaffoldTimer speed:1.0
+Scaffold:ScaffoldModes:Redesky
+Scaffold:ScaffoldShow in List:true
 AutoArmor:AutoArmorOpen inventory:true
 AutoArmor:AutoArmorDelay:144.0
 AutoArmor:AutoArmorShow in List:true
@@ -30,8 +34,22 @@ RenderChanger:RenderChangerBig heads:true
 RenderChanger:RenderChangerShow in List:true
 InventoryWalk:InventoryWalkShow in List:true
 NoScoreboard:NoScoreboardShow in List:true
+EntityESP:EntityESPIgnore nametags:false
+EntityESP:EntityESPPlayers:true
+EntityESP:EntityESPAnimals:true
+EntityESP:EntityESPMobs:true
+EntityESP:EntityESPItems:true
+EntityESP:EntityESPClient color:true
+EntityESP:EntityESPModes:CSGO
+EntityESP:EntityESPWidth:1.5
+EntityESP:EntityESPAlpha:50.0
+EntityESP:EntityESPShow in List:true
 BlockOverlay:BlockOverlayDepth:false
 BlockOverlay:BlockOverlayShow in List:true
+AutoRespawn:AutoRespawnShow in List:true
+Swing:SwingModes:Normal
+Swing:SwingBlockModes:Stab
+Swing:SwingShow in List:true
 Speed:SpeedModes:Redesky
 Speed:SpeedShow in List:true
 InfiniteReach:InfiniteReachHit delay:2000.0
@@ -45,18 +63,10 @@ Performance:PerformanceShow in List:true
 TerrainSpeed:TerrainSpeedKeep speed:true
 TerrainSpeed:TerrainSpeedFactor:0.2
 TerrainSpeed:TerrainSpeedShow in List:true
+AutoRegister:AutoRegisterShow in List:true
 NameProtect:NameProtectShow in List:true
 Trajectories:TrajectoriesShow in List:true
-Scaffold:ScaffoldSprint:true
-Scaffold:ScaffoldSneak:false
-Scaffold:ScaffoldSilent:true
-Scaffold:ScaffoldTimer:false
-Scaffold:ScaffoldNo swing:true
-Scaffold:ScaffoldDisplay block count:true
-Scaffold:ScaffoldDelay:0.0
-Scaffold:ScaffoldTimer speed:1.0
-Scaffold:ScaffoldModes:Redesky
-Scaffold:ScaffoldShow in List:true
+NoPitchLimit:NoPitchLimitShow in List:true
 ChestESP:ChestESPHive chests:false
 ChestESP:ChestESPModes:Box
 ChestESP:ChestESPClient color:false
@@ -67,6 +77,11 @@ ChestESP:ChestESPShow in List:true
 EnemyFinder:EnemyFinderUpdate delay:1000.0
 EnemyFinder:EnemyFinderShow in List:true
 PotionSaver:PotionSaverShow in List:true
+AutoClicker:AutoClickerMax CPS:18.0
+AutoClicker:AutoClickerMin CPS:15.0
+AutoClicker:AutoClickerPlace:true
+AutoClicker:AutoClickerShow in List:true
+ItemPhysics:ItemPhysicsShow in List:true
 Velocity:VelocityModes:NCP
 Velocity:VelocityHorizontal:1.0
 Velocity:VelocityVertical:1.0
@@ -81,6 +96,7 @@ Regenerate:RegeneratePackets:1.0
 Regenerate:RegenerateRetry delay:4000.0
 Regenerate:RegenerateModes:Packet
 Regenerate:RegenerateShow in List:true
+GhostHand:GhostHandShow in List:true
 Fly:FlyModes:Redesky
 Fly:FlyAir bobbing:true
 Fly:FlyMotion y:1.0
@@ -93,12 +109,26 @@ WorldTime:WorldTimeShow in List:true
 ChestAura:ChestAuraRange:4.0
 ChestAura:ChestAuraThrough walls:false
 ChestAura:ChestAuraShow in List:true
+Fucker:FuckerModes:Bed
+Fucker:FuckerRange:4.0
+Fucker:FuckerShow in List:true
 Nametags:NametagsShow in List:true
 RearView:RearViewShow in List:true
 AutoTool:AutoToolSilent:true
 AutoTool:AutoToolShow in List:true
 CubeClip:CubeClipShow in List:true
 Teleport:TeleportShow in List:true
+FreeCam:FreeCamNoClip:true
+FreeCam:FreeCamShow in List:true
+ClickGui:ClickGuiAnimations:true
+ClickGui:ClickGuiParticles:true
+ClickGui:ClickGuiFlow:true
+ClickGui:ClickGuiFlow factor:3.0
+ClickGui:ClickGuiTheme:Dark
+ClickGui:ClickGuiShow in List:true
+Tracers:TracersFeet:false
+Tracers:TracersOutlined:true
+Tracers:TracersShow in List:true
 Aura:AuraAuto block:true
 Aura:AuraPredict:true
 Aura:AuraAimlock:false
@@ -125,15 +155,7 @@ Aura:AuraFail hit count:5.0
 Aura:AuraWall range:3.0
 Aura:AuraESP modes:Circle
 Aura:AuraShow in List:true
-ClickGui:ClickGuiAnimations:true
-ClickGui:ClickGuiParticles:true
-ClickGui:ClickGuiFlow:true
-ClickGui:ClickGuiFlow factor:3.0
-ClickGui:ClickGuiTheme:Dark
-ClickGui:ClickGuiShow in List:true
-Tracers:TracersFeet:false
-Tracers:TracersOutlined:true
-Tracers:TracersShow in List:true
+CamClip:CamClipShow in List:true
 NoSlow:NoSlowStrafe factor:1.0
 NoSlow:NoSlowForward factor:1.0
 NoSlow:NoSlowPacket:true
@@ -143,13 +165,8 @@ FastUse:FastUsePackets:1.0
 FastUse:FastUseShow in List:true
 Friends:FriendsCancel attacks:true
 Friends:FriendsShow in List:true
-Step:StepHeight:1.0
-Step:StepShow in List:true
 NoFall:NoFallModes:Vanilla
 NoFall:NoFallShow in List:true
-Fucker:FuckerModes:Bed
-Fucker:FuckerRange:4.0
-Fucker:FuckerShow in List:true
 Strafe:StrafeShow in List:true
 Sprint:SprintAll directions:true
 Sprint:SprintShow in List:true
@@ -161,17 +178,20 @@ Chams:ChamsShow in List:true
 NoBob:NoBobShow in List:true
 Tower:TowerSilent:true
 Tower:TowerTimer:false
+Tower:TowerAuto centering:false
 Tower:TowerNo swing:true
 Tower:TowerDisplay block count:true
 Tower:TowerDelay:96.0
 Tower:TowerTimer speed:2.0
 Tower:TowerModes:Motion
 Tower:TowerShow in List:true
-Swing:SwingModes:Normal
-Swing:SwingBlockModes:Normal
-Swing:SwingShow in List:true
 Teams:TeamsShow in List:true
+Reach:ReachAttack range:3.6
+Reach:ReachInteract range:5.5
+Reach:ReachShow in List:true
 Blink:BlinkShow in List:true
+Step:StepHeight:1.0
+Step:StepShow in List:true
 HUD:HUDNotifications:true
 HUD:HUDLogo:true
 HUD:HUDInfo:true
@@ -183,8 +203,9 @@ HUD:HUDMinimap:false
 HUD:HUDBlur:true
 HUD:HUDBetterHUD:true
 HUD:HUDCrosshair:false
-HUD:HUDRainbow speed:10.0
-HUD:HUDRainbow offset:2.0
+HUD:HUDRainbow speed:20.0
+HUD:HUDRainbow offset:20.0
+HUD:HUDBlur strength:20.0
 HUD:HUDFonts:Big Noodle
 HUD:HUDShow in List:true
 Clip:ClipModes:Vertical
