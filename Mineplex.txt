@@ -1,3 +1,4 @@
+ConfigName#SubBoss
 InventoryCleaner:InventoryCleanerOpen inventory:true
 InventoryCleaner:InventoryCleanerSort inventory:true
 InventoryCleaner:InventoryCleanerDelay:184.0
@@ -167,7 +168,6 @@ Tower:TowerTimer:true
 Tower:TowerAuto centering:true
 Tower:TowerNo swing:false
 Tower:TowerDisplay block count:true
-ConfigName#SubBoss
 Tower:TowerDelay:0.0
 Tower:TowerTimer speed:1.2
 Tower:TowerModes:Jump
