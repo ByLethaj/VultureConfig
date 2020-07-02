@@ -137,7 +137,7 @@ Aura:AuraFail hit:false
 Aura:AuraPlayers:true
 Aura:AuraAnimals:false
 Aura:AuraMobs:false
-Aura:AuraRange:3.9
+Aura:AuraRange:4.1
 Aura:AuraMax CPS:14.0
 Aura:AuraMin CPS:10.0
 Aura:AuraMax turn speed:42.0
