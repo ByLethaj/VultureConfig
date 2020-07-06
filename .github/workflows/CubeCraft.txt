@@ -38,17 +38,6 @@ NoScoreboard:NoScoreboardShow in List:true
 BlockOverlay~false
 BlockOverlay:BlockOverlayDepth:false
 BlockOverlay:BlockOverlayShow in List:true
-EntityESP~true
-EntityESP:EntityESPIgnore nametags:false
-EntityESP:EntityESPPlayers:true
-EntityESP:EntityESPAnimals:true
-EntityESP:EntityESPMobs:true
-EntityESP:EntityESPItems:true
-EntityESP:EntityESPClient color:false
-EntityESP:EntityESPModes:CSGO
-EntityESP:EntityESPWidth:1.5
-EntityESP:EntityESPAlpha:50.0
-EntityESP:EntityESPShow in List:true
 AutoRespawn~false
 AutoRespawn:AutoRespawnShow in List:true
 Swing~true
@@ -71,6 +60,16 @@ AutoRegister~false
 AutoRegister:AutoRegisterShow in List:true
 Performance~false
 Performance:PerformanceShow in List:true
+EntityESP:EntityESPIgnore nametags:true
+EntityESP:EntityESPPlayers:true
+EntityESP:EntityESPAnimals:true
+EntityESP:EntityESPMobs:true
+EntityESP:EntityESPItems:true
+EntityESP:EntityESPClient color:true
+EntityESP:EntityESPModes:CSGO
+EntityESP:EntityESPWidth:1.5
+EntityESP:EntityESPAlpha:50.0
+EntityESP:EntityESPShow in List:true
 NameProtect~true
 NameProtect:NameProtectShow in List:true
 Trajectories~true
@@ -171,11 +170,7 @@ ClickGui:ClickGuiFlow:true
 ClickGui:ClickGuiFlow factor:3.0
 ClickGui:ClickGuiTheme:Dark
 ClickGui:ClickGuiShow in List:true
-Tracers~false
-Tracers:TracersFeet:false
-Tracers:TracersOutlined:false
-Tracers:TracersShow in List:true
-Aura~true
+Aura~false
 Aura:AuraAuto block:true
 Aura:AuraSwitch:true
 Aura:AuraPredict:true
@@ -204,6 +199,10 @@ Aura:AuraWall range:1.0
 Aura:AuraRandom Factor:1.0
 Aura:AuraESP modes:Circle
 Aura:AuraShow in List:true
+Tracers~false
+Tracers:TracersFeet:false
+Tracers:TracersOutlined:false
+Tracers:TracersShow in List:true
 CamClip~false
 CamClip:CamClipShow in List:true
 FastUse~false
@@ -271,9 +270,7 @@ Step~false
 Step:StepHeight:3.0
 Step:StepLadders:false
 Step:StepShow in List:true
-HUD~true
-HUD:HUDDynamic:false
-HUD:HUDNotifications:false
+HUD:HUDNotifications:true
 HUD:HUDLogo:true
 HUD:HUDInfo:true
 HUD:HUDBackground:true
