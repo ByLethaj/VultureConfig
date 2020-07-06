@@ -179,7 +179,7 @@ Aura:AuraParticles:true
 Aura:AuraRaycast:true
 Aura:AuraThrough walls:false
 Aura:AuraStrafing:false
-Aura:AuraNo swing:true
+Aura:AuraNo swing:false
 Aura:AuraStop sprint:true
 Aura:AuraInfo:true
 Aura:AuraClose screen:false
