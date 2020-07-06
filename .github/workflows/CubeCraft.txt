@@ -1,6 +1,6 @@
 ConfigName#SubBoss
 Speed~false
-Speed:SpeedModes:CubecraftGround
+Speed:SpeedModes:CubecraftHop
 Speed:SpeedShow in List:true
 Fly~false
 Fly:FlyModes:CubecraftBoost
