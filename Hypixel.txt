@@ -1,3 +1,4 @@
+ConfigName#SubBoss
 InventoryCleaner~true
 InventoryCleaner:InventoryCleanerOpen inventory:true
 InventoryCleaner:InventoryCleanerDelay:115.0
@@ -273,7 +274,7 @@ HUD:HUDNotifications:true
 HUD:HUDLogo:Old
 HUD:HUDInfo:true
 HUD:HUDBackground:true
-HUD:HUDKöftespieß:false
+HUD:HUDKÃ¶ftespieÃŸ:false
 HUD:HUDColoring:Pulse
 HUD:HUDCompass:true
 HUD:HUDMinimap:true
