@@ -50,7 +50,7 @@ AutoRespawn:AutoRespawnShow in List:true
 Swing:SwingModes:Normal
 Swing:SwingBlockModes:Stab
 Swing:SwingShow in List:true
-Speed:SpeedModes:Redesky
+Speed:SpeedModes:HiveMC
 Speed:SpeedShow in List:true
 InfiniteReach:InfiniteReachHit delay:2000.0
 InfiniteReach:InfiniteReachAura:false
