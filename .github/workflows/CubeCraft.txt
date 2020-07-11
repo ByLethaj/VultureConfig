@@ -192,15 +192,15 @@ Aura:AuraStop sprint:true
 Aura:AuraInfo:true
 Aura:AuraClose screen:false
 Aura:AuraDisable on death:true
-Aura:AuraFail hit:true
+Aura:AuraFail hit:false
 Aura:AuraPlayers:true
 Aura:AuraAnimals:false
 Aura:AuraMobs:false
-Aura:AuraRange:3.9
+Aura:AuraRange:4.2
 Aura:AuraMax CPS:16.0
 Aura:AuraMin CPS:12.0
-Aura:AuraMax turn speed:114.0
-Aura:AuraMin turn speed:70.0
+Aura:AuraMax turn speed:90.0
+Aura:AuraMin turn speed:48.0
 Aura:AuraFOV:180.0
 Aura:AuraFail hit count:1.0
 Aura:AuraWall range:1.0
