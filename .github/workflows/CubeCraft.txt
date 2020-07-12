@@ -7,7 +7,7 @@ Speed~false
 Speed:SpeedModes:CubecraftHop
 Speed:SpeedShow in List:true
 Fly~false
-Fly:FlyModes:CubecraftBoost
+Fly:FlyModes:CubecraftFast
 Fly:FlyAir bobbing:false
 Fly:FlyMotion y:7.7
 Fly:FlyBoost:3.9
