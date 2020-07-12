@@ -261,7 +261,7 @@ Tower:TowerNo swing:true
 Tower:TowerDisplay block count:true
 Tower:TowerDelay:96.0
 Tower:TowerTimer speed:3.4
-Tower:TowerModes:Cubecraft
+Tower:TowerModes:Motion
 Tower:TowerShow in List:true
 Swing~false
 Swing:SwingModes:Normal
