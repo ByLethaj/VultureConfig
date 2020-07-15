@@ -1,8 +1,5 @@
 ConfigName#SubBoss
-Speed~false
-Speed:SpeedModes:CubecraftHop
-Speed:SpeedShow in List:true
-InventoryCleaner~true
+SInventoryCleaner~true
 InventoryCleaner:InventoryCleanerOpen inventory:false
 InventoryCleaner:InventoryCleanerDelay:224.0
 InventoryCleaner:InventoryCleanerShow in List:true
@@ -12,16 +9,19 @@ Fly:FlyAir bobbing:false
 Fly:FlyMotion y:7.7
 Fly:FlyBoost:1.0
 Fly:FlyShow in List:true
+Speed~false
+Speed:SpeedModes:CubecraftHop
+Speed:SpeedShow in List:true
+ChestStealer~true
+ChestStealer:ChestStealerClose screen:true
+ChestStealer:ChestStealerCheck name:true
+ChestStealer:ChestStealerDelay:286.0
+ChestStealer:ChestStealerOpening delay:214.0
+ChestStealer:ChestStealerShow in List:true
 AutoArmor~true
 AutoArmor:AutoArmorOpen inventory:false
 AutoArmor:AutoArmorDelay:490.0
 AutoArmor:AutoArmorShow in List:true
-ChestStealer~true
-ChestStealer:ChestStealerClose screen:true
-ChestStealer:ChestStealerCheck name:true
-ChestStealer:ChestStealerDelay:41.0
-ChestStealer:ChestStealerOpening delay:214.0
-ChestStealer:ChestStealerShow in List:true
 RenderChanger~false
 RenderChanger:RenderChangerItem to view:false
 RenderChanger:RenderChangerHigher held item:false
@@ -67,7 +67,7 @@ AutoRegister~false
 AutoRegister:AutoRegisterShow in List:true
 NameProtect~true
 NameProtect:NameProtectShow in List:true
-Trajectories~true
+Trajectories~false
 Trajectories:TrajectoriesShow in List:false
 Scaffold~false
 Scaffold:ScaffoldSprint:false
@@ -105,15 +105,15 @@ AutoClicker:AutoClickerMax CPS:20.0
 AutoClicker:AutoClickerMin CPS:16.0
 AutoClicker:AutoClickerPlace:false
 AutoClicker:AutoClickerShow in List:true
+ItemPhysics~true
+ItemPhysics:ItemPhysicsShow in List:false
+WaterSpeed~false
+WaterSpeed:WaterSpeedShow in List:true
 Velocity~true
 Velocity:VelocityModes:NCP
 Velocity:VelocityHorizontal:0.0
 Velocity:VelocityVertical:0.0
 Velocity:VelocityShow in List:true
-ItemPhysics~true
-ItemPhysics:ItemPhysicsShow in List:false
-WaterSpeed~false
-WaterSpeed:WaterSpeedShow in List:true
 DamageHits~true
 DamageHits:DamageHitsShow in List:false
 NoHurtCam~false
@@ -135,7 +135,7 @@ FullBright:FullBrightShow in List:false
 WorldTime~false
 WorldTime:WorldTimeTime:10.0
 WorldTime:WorldTimeShow in List:true
-ChestAura~true
+ChestAura~false
 ChestAura:ChestAuraRange:4.0
 ChestAura:ChestAuraThrough walls:false
 ChestAura:ChestAuraShow in List:true
@@ -174,6 +174,36 @@ Tracers~false
 Tracers:TracersFeet:false
 Tracers:TracersOutlined:true
 Tracers:TracersShow in List:false
+Aura~false
+Aura:AuraAuto block:false
+Aura:AuraSwitch:true
+Aura:AuraPredict:true
+Aura:AuraAimlock:false
+Aura:AuraParticles:true
+Aura:AuraRaycast:true
+Aura:AuraThrough walls:false
+Aura:AuraStrafing:false
+Aura:AuraNo swing:false
+Aura:AuraGomme:false
+Aura:AuraStop sprint:true
+Aura:AuraInfo:true
+Aura:AuraClose screen:false
+Aura:AuraDisable on death:true
+Aura:AuraFail hit:false
+Aura:AuraPlayers:true
+Aura:AuraAnimals:false
+Aura:AuraMobs:false
+Aura:AuraRange:4.0
+Aura:AuraMax CPS:10.0
+Aura:AuraMin CPS:2.0
+Aura:AuraMax turn speed:90.0
+Aura:AuraMin turn speed:48.0
+Aura:AuraFOV:180.0
+Aura:AuraFail hit count:1.0
+Aura:AuraWall range:1.0
+Aura:AuraRandom Factor:1.0
+Aura:AuraESP modes:Circle
+Aura:AuraShow in List:true
 CamClip~false
 CamClip:CamClipShow in List:false
 NoSlow~true
@@ -196,40 +226,10 @@ AntiBot:AntiBotCheck packets:false
 AntiBot:AntiBotNeeds hit:false
 AntiBot:AntiBotCheck visibility:false
 AntiBot:AntiBotShow in List:true
-Friends~true
+Friends~false
 Friends:FriendsCancel attacks:true
 Friends:FriendsShow in List:true
-Aura~true
-Aura:AuraAuto block:true
-Aura:AuraSwitch:true
-Aura:AuraPredict:true
-Aura:AuraAimlock:false
-Aura:AuraParticles:true
-Aura:AuraRaycast:true
-Aura:AuraThrough walls:false
-Aura:AuraStrafing:false
-Aura:AuraNo swing:false
-Aura:AuraGomme:true
-Aura:AuraStop sprint:true
-Aura:AuraInfo:true
-Aura:AuraClose screen:false
-Aura:AuraDisable on death:true
-Aura:AuraFail hit:false
-Aura:AuraPlayers:true
-Aura:AuraAnimals:false
-Aura:AuraMobs:false
-Aura:AuraRange:4.1
-Aura:AuraMax CPS:14.0
-Aura:AuraMin CPS:10.0
-Aura:AuraMax turn speed:90.0
-Aura:AuraMin turn speed:48.0
-Aura:AuraFOV:180.0
-Aura:AuraFail hit count:1.0
-Aura:AuraWall range:1.0
-Aura:AuraRandom Factor:1.0
-Aura:AuraESP modes:Circle
-Aura:AuraShow in List:true
-Step~true
+Step~false
 Step:StepHeight:3.0
 Step:StepLadders:false
 Step:StepShow in List:true
