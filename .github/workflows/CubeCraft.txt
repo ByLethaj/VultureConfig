@@ -1,25 +1,25 @@
 ConfigName#SubBoss
-SInventoryCleaner~true
-InventoryCleaner:InventoryCleanerOpen inventory:false
+InventoryCleaner~true
+InventoryCleaner:InventoryCleanerOpen inventory:true
 InventoryCleaner:InventoryCleanerDelay:224.0
 InventoryCleaner:InventoryCleanerShow in List:true
-Fly~false
-Fly:FlyModes:CubecraftSmooth
-Fly:FlyAir bobbing:false
-Fly:FlyMotion y:7.7
-Fly:FlyBoost:1.0
-Fly:FlyShow in List:true
 Speed~false
 Speed:SpeedModes:CubecraftHop
 Speed:SpeedShow in List:true
 ChestStealer~true
 ChestStealer:ChestStealerClose screen:true
 ChestStealer:ChestStealerCheck name:true
-ChestStealer:ChestStealerDelay:286.0
+ChestStealer:ChestStealerDelay:143.0
 ChestStealer:ChestStealerOpening delay:214.0
 ChestStealer:ChestStealerShow in List:true
+Fly~false
+Fly:FlyModes:CubecraftFast
+Fly:FlyAir bobbing:false
+Fly:FlyMotion y:7.7
+Fly:FlyBoost:1.0
+Fly:FlyShow in List:true
 AutoArmor~true
-AutoArmor:AutoArmorOpen inventory:false
+AutoArmor:AutoArmorOpen inventory:true
 AutoArmor:AutoArmorDelay:490.0
 AutoArmor:AutoArmorShow in List:true
 RenderChanger~false
@@ -30,7 +30,7 @@ RenderChanger:RenderChangerFlip entities:false
 RenderChanger:RenderChangerBig heads:true
 RenderChanger:RenderChangerItem block:false
 RenderChanger:RenderChangerShow in List:false
-InventoryWalk~true
+InventoryWalk~false
 InventoryWalk:InventoryWalkShow in List:true
 NoScoreboard~false
 NoScoreboard:NoScoreboardShow in List:false
@@ -67,7 +67,7 @@ AutoRegister~false
 AutoRegister:AutoRegisterShow in List:true
 NameProtect~true
 NameProtect:NameProtectShow in List:true
-Trajectories~false
+Trajectories~true
 Trajectories:TrajectoriesShow in List:false
 Scaffold~false
 Scaffold:ScaffoldSprint:false
@@ -100,6 +100,9 @@ PotionSaver~false
 PotionSaver:PotionSaverShow in List:true
 NoInvisibles~false
 NoInvisibles:NoInvisiblesShow in List:false
+DeathSpawn~false
+DeathSpawn:DeathSpawnTries:5.0
+DeathSpawn:DeathSpawnShow in List:true
 AutoClicker~false
 AutoClicker:AutoClickerMax CPS:20.0
 AutoClicker:AutoClickerMin CPS:16.0
@@ -229,10 +232,6 @@ AntiBot:AntiBotShow in List:true
 Friends~false
 Friends:FriendsCancel attacks:true
 Friends:FriendsShow in List:true
-Step~false
-Step:StepHeight:3.0
-Step:StepLadders:false
-Step:StepShow in List:true
 NoFall~false
 NoFall:NoFallModes:Vanilla
 NoFall:NoFallShow in List:true
@@ -276,6 +275,10 @@ Reach:ReachInteract range:5.5
 Reach:ReachShow in List:true
 Blink~false
 Blink:BlinkShow in List:true
+Step~false
+Step:StepHeight:3.0
+Step:StepLadders:false
+Step:StepShow in List:true
 HUD~true
 HUD:HUDDynamic:false
 HUD:HUDNotifications:true
