@@ -51,7 +51,7 @@ AutoRespawn~false
 AutoRespawn:AutoRespawnShow in List:true
 InfiniteReach~false
 InfiniteReach:InfiniteReachHit delay:2000.0
-InfiniteReach:InfiniteReachAura:false
+InfiniteReach:InfiniteReach:false
 InfiniteReach:InfiniteReachBlockPos:false
 InfiniteReach:InfiniteReachAura players:false
 InfiniteReach:InfiniteReachAura animals:false
@@ -178,7 +178,7 @@ Tracers:TracersFeet:false
 Tracers:TracersOutlined:true
 Tracers:TracersShow in List:false
 Aura~false
-Aura:AuraAuto block:false
+Aura:AuraAuto block:true
 Aura:AuraSwitch:true
 Aura:AuraPredict:true
 Aura:AuraAimlock:false
