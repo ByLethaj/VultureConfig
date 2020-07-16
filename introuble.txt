@@ -12,7 +12,7 @@ NoFall~false
 NoFall:NoFallModes:Vanilla
 NoFall:NoFallShow in List:true
 Speed~false
-Speed:SpeedModes:HypixelHop
+Speed:SpeedModes:Lowhop
 Speed:SpeedShow in List:true
 AutoArmor~true
 AutoArmor:AutoArmorOpen inventory:true
@@ -287,7 +287,7 @@ HUD:HUDNotifications:true
 HUD:HUDLogo:Old
 HUD:HUDInfo:true
 HUD:HUDBackground:true
-HUD:HUDKöftespieß:false
+HUD:HUDKÃ¶ftespieÃŸ:false
 HUD:HUDColoring:Pulse
 HUD:HUDCompass:false
 HUD:HUDMinimap:false
