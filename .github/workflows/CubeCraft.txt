@@ -1,4 +1,3 @@
-ConfigName#SubBoss
 InventoryCleaner~true
 InventoryCleaner:InventoryCleanerOpen inventory:true
 InventoryCleaner:InventoryCleanerDelay:224.0
@@ -22,6 +21,9 @@ AutoArmor~true
 AutoArmor:AutoArmorOpen inventory:true
 AutoArmor:AutoArmorDelay:490.0
 AutoArmor:AutoArmorShow in List:true
+NoFall~true
+NoFall:NoFallModes:Cubecraft
+NoFall:NoFallShow in List:true
 RenderChanger~false
 RenderChanger:RenderChangerItem to view:false
 RenderChanger:RenderChangerHigher held item:false
@@ -30,7 +32,8 @@ RenderChanger:RenderChangerFlip entities:false
 RenderChanger:RenderChangerBig heads:true
 RenderChanger:RenderChangerItem block:false
 RenderChanger:RenderChangerShow in List:false
-InventoryWalk~false
+InventoryWalk~true
+InventoryWalk:InventoryWalkOnly inventory:true
 InventoryWalk:InventoryWalkShow in List:true
 NoScoreboard~false
 NoScoreboard:NoScoreboardShow in List:false
@@ -51,7 +54,7 @@ AutoRespawn~false
 AutoRespawn:AutoRespawnShow in List:true
 InfiniteReach~false
 InfiniteReach:InfiniteReachHit delay:2000.0
-InfiniteReach:InfiniteReach:false
+InfiniteReach:InfiniteReachAura:false
 InfiniteReach:InfiniteReachBlockPos:false
 InfiniteReach:InfiniteReachAura players:false
 InfiniteReach:InfiniteReachAura animals:false
@@ -73,11 +76,13 @@ Scaffold~false
 Scaffold:ScaffoldSprint:false
 Scaffold:ScaffoldSneak:false
 Scaffold:ScaffoldSilent:true
+Scaffold:ScaffoldJitter:true
 Scaffold:ScaffoldTimer:false
 Scaffold:ScaffoldNo swing:false
 Scaffold:ScaffoldDisplay block count:true
 Scaffold:ScaffoldDelay:0.0
 Scaffold:ScaffoldTimer speed:18.6
+Scaffold:ScaffoldJitter factor:0.3
 Scaffold:ScaffoldModes:AAC
 Scaffold:ScaffoldShow in List:true
 NoPitchLimit~false
@@ -100,7 +105,7 @@ PotionSaver~false
 PotionSaver:PotionSaverShow in List:true
 NoInvisibles~false
 NoInvisibles:NoInvisiblesShow in List:false
-DeathSpawn~false
+DeathSpawn~true
 DeathSpawn:DeathSpawnTries:5.0
 DeathSpawn:DeathSpawnShow in List:true
 AutoClicker~false
@@ -142,6 +147,10 @@ ChestAura~false
 ChestAura:ChestAuraRange:4.0
 ChestAura:ChestAuraThrough walls:false
 ChestAura:ChestAuraShow in List:true
+Fucker~true
+Fucker:FuckerModes:Egg
+Fucker:FuckerRange:4.0
+Fucker:FuckerShow in List:true
 Nametags~true
 Nametags:NametagsMax size:4.0
 Nametags:NametagsShow in List:false
@@ -196,7 +205,7 @@ Aura:AuraFail hit:false
 Aura:AuraPlayers:true
 Aura:AuraAnimals:false
 Aura:AuraMobs:false
-Aura:AuraRange:4.0
+Aura:AuraRange:4.4
 Aura:AuraMax CPS:10.0
 Aura:AuraMin CPS:2.0
 Aura:AuraMax turn speed:90.0
@@ -232,13 +241,10 @@ AntiBot:AntiBotShow in List:true
 Friends~false
 Friends:FriendsCancel attacks:true
 Friends:FriendsShow in List:true
-NoFall~false
-NoFall:NoFallModes:Vanilla
-NoFall:NoFallShow in List:true
-Fucker~false
-Fucker:FuckerModes:Egg
-Fucker:FuckerRange:4.0
-Fucker:FuckerShow in List:true
+Step~true
+Step:StepHeight:3.0
+Step:StepLadders:false
+Step:StepShow in List:true
 Strafe~false
 Strafe:StrafeShow in List:true
 Sprint~true
@@ -275,10 +281,6 @@ Reach:ReachInteract range:5.5
 Reach:ReachShow in List:true
 Blink~false
 Blink:BlinkShow in List:true
-Step~false
-Step:StepHeight:3.0
-Step:StepLadders:false
-Step:StepShow in List:true
 HUD~true
 HUD:HUDDynamic:false
 HUD:HUDNotifications:true
