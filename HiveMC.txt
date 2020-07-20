@@ -106,7 +106,7 @@ Scaffold:ScaffoldJitter:false
 Scaffold:ScaffoldTimer:false
 Scaffold:ScaffoldNo swing:false
 Scaffold:ScaffoldDisplay block count:true
-Scaffold:ScaffoldDelay:327.0
+Scaffold:ScaffoldDelay:245.0
 Scaffold:ScaffoldTimer speed:6.0
 Scaffold:ScaffoldJitter factor:0.3
 Scaffold:ScaffoldModes:AAC
