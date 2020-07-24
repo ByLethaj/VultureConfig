@@ -8,8 +8,8 @@ Speed:SpeedShow in List:true
 ChestStealer~true
 ChestStealer:ChestStealerClose screen:true
 ChestStealer:ChestStealerCheck name:false
-ChestStealer:ChestStealerDelay:143.0
-ChestStealer:ChestStealerOpening delay:184.0
+ChestStealer:ChestStealerDelay:0.0
+ChestStealer:ChestStealerOpening delay:0.0
 ChestStealer:ChestStealerShow in List:true
 Fly~false
 Fly:FlyModes:CubecraftBoost
