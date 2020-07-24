@@ -44,7 +44,7 @@ InventoryWalk~true
 InventoryWalk:InventoryWalkOnly inventory:true
 InventoryWalk:InventoryWalkShow in List:true
 Velocity~true
-Velocity:VelocityModes:Intave
+Velocity:VelocityModes:AAC4
 Velocity:VelocityHorizontal:0.8
 Velocity:VelocityVertical:0.8
 Velocity:VelocityShow in List:true
