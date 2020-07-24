@@ -97,7 +97,7 @@ NoInvisibles~false
 NoInvisibles:NoInvisiblesShow in List:true
 Scaffold~false
 Scaffold:ScaffoldSprint:false
-Scaffold:ScaffoldSneak:true
+Scaffold:ScaffoldSneak:false
 Scaffold:ScaffoldSilent:true
 Scaffold:ScaffoldJitter:false
 Scaffold:ScaffoldTimer:true
