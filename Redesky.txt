@@ -11,6 +11,12 @@ ChestStealer:ChestStealerCheck name:false
 ChestStealer:ChestStealerDelay:143.0
 ChestStealer:ChestStealerOpening delay:184.0
 ChestStealer:ChestStealerShow in List:true
+Fly~false
+Fly:FlyModes:CubecraftBoost
+Fly:FlyAir bobbing:true
+Fly:FlyMotion y:4.0
+Fly:FlyBoost:1.0
+Fly:FlyShow in List:true
 AutoArmor~true
 AutoArmor:AutoArmorOpen inventory:true
 AutoArmor:AutoArmorDelay:224.0
@@ -62,6 +68,11 @@ InfiniteReach:InfiniteReachShow in List:true
 BlockOverlay~false
 BlockOverlay:BlockOverlayDepth:false
 BlockOverlay:BlockOverlayShow in List:true
+Velocity~true
+Velocity:VelocityModes:AAC4
+Velocity:VelocityHorizontal:0.8
+Velocity:VelocityVertical:0.8
+Velocity:VelocityShow in List:true
 EnemyFinder~false
 EnemyFinder:EnemyFinderUpdate delay:1000.0
 EnemyFinder:EnemyFinderShow in List:true
@@ -91,7 +102,7 @@ ItemPhysics:ItemPhysicsShow in List:true
 PotionSaver~false
 PotionSaver:PotionSaverShow in List:true
 Scaffold~false
-Scaffold:ScaffoldSprint:true
+Scaffold:ScaffoldSprint:false
 Scaffold:ScaffoldSneak:false
 Scaffold:ScaffoldSilent:true
 Scaffold:ScaffoldJitter:true
@@ -103,11 +114,6 @@ Scaffold:ScaffoldTimer speed:0.1
 Scaffold:ScaffoldJitter factor:0.3
 Scaffold:ScaffoldModes:AAC
 Scaffold:ScaffoldShow in List:true
-Velocity~true
-Velocity:VelocityModes:NCP
-Velocity:VelocityHorizontal:0.8
-Velocity:VelocityVertical:0.8
-Velocity:VelocityShow in List:true
 Trajectories~true
 Trajectories:TrajectoriesShow in List:true
 NoHurtCam~false
@@ -122,12 +128,6 @@ AutoClicker:AutoClickerMax CPS:12.0
 AutoClicker:AutoClickerMin CPS:8.0
 AutoClicker:AutoClickerPlace:true
 AutoClicker:AutoClickerShow in List:true
-Fly~false
-Fly:FlyModes:CubecraftBoost
-Fly:FlyAir bobbing:true
-Fly:FlyMotion y:4.0
-Fly:FlyBoost:1.0
-Fly:FlyShow in List:true
 BowAimbot~true
 BowAimbot:BowAimbotAimlock:false
 BowAimbot:BowAimbotAuto release:true
@@ -211,7 +211,7 @@ FastUse~false
 FastUse:FastUseNot moving:true
 FastUse:FastUsePackets:20.0
 FastUse:FastUseShow in List:true
-Step~true
+Step~false
 Step:StepHeight:3.0
 Step:StepLadders:true
 Step:StepShow in List:true
