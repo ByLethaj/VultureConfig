@@ -2,9 +2,6 @@ InventoryCleaner~true
 InventoryCleaner:InventoryCleanerOpen inventory:true
 InventoryCleaner:InventoryCleanerDelay:60.0
 InventoryCleaner:InventoryCleanerShow in List:true
-Speed~false
-Speed:SpeedModes:CubecraftHop
-Speed:SpeedShow in List:true
 ChestStealer~true
 ChestStealer:ChestStealerClose screen:true
 ChestStealer:ChestStealerCheck name:true
@@ -17,13 +14,9 @@ Fly:FlyAir bobbing:false
 Fly:FlyMotion y:1.0
 Fly:FlyBoost:1.0
 Fly:FlyShow in List:true
-ChestESP~true
-ChestESP:ChestESPHive chests:false
-ChestESP:ChestESPModes:Outline
-ChestESP:ChestESPClient color:false
-ChestESP:ChestESPWidth:1.5
-ChestESP:ChestESPAlpha:50.0
-ChestESP:ChestESPShow in List:true
+NoFall~false
+NoFall:NoFallModes:Cubecraft
+NoFall:NoFallShow in List:true
 RenderChanger~false
 RenderChanger:RenderChangerItem to view:false
 RenderChanger:RenderChangerHigher held item:false
@@ -90,6 +83,13 @@ DamageHits~true
 DamageHits:DamageHitsShow in List:true
 WaterSpeed~false
 WaterSpeed:WaterSpeedShow in List:true
+ChestESP~true
+ChestESP:ChestESPHive chests:false
+ChestESP:ChestESPModes:2D
+ChestESP:ChestESPClient color:false
+ChestESP:ChestESPWidth:1.5
+ChestESP:ChestESPAlpha:50.0
+ChestESP:ChestESPShow in List:true
 PotionSaver~false
 PotionSaver:PotionSaverShow in List:true
 ItemPhysics~true
@@ -101,6 +101,19 @@ Velocity:VelocityModes:NCP
 Velocity:VelocityHorizontal:0.0
 Velocity:VelocityVertical:0.0
 Velocity:VelocityShow in List:true
+Scaffold~false
+Scaffold:ScaffoldSprint:false
+Scaffold:ScaffoldSneak:false
+Scaffold:ScaffoldSilent:true
+Scaffold:ScaffoldJitter:true
+Scaffold:ScaffoldTimer:false
+Scaffold:ScaffoldNo swing:false
+Scaffold:ScaffoldDisplay block count:true
+Scaffold:ScaffoldDelay:0.0
+Scaffold:ScaffoldTimer speed:3.8
+Scaffold:ScaffoldJitter factor:0.3
+Scaffold:ScaffoldModes:AAC
+Scaffold:ScaffoldShow in List:true
 Trajectories~true
 Trajectories:TrajectoriesShow in List:true
 NoHurtCam~false
@@ -162,23 +175,10 @@ ClickGui:ClickGuiFlow factor:3.0
 ClickGui:ClickGuiScale factor:1.0
 ClickGui:ClickGuiTheme:Dark
 ClickGui:ClickGuiShow in List:true
-Scaffold~false
-Scaffold:ScaffoldSprint:false
-Scaffold:ScaffoldSneak:false
-Scaffold:ScaffoldSilent:true
-Scaffold:ScaffoldJitter:true
-Scaffold:ScaffoldTimer:false
-Scaffold:ScaffoldNo swing:false
-Scaffold:ScaffoldDisplay block count:true
-Scaffold:ScaffoldDelay:0.0
-Scaffold:ScaffoldTimer speed:3.8
-Scaffold:ScaffoldJitter factor:0.3
-Scaffold:ScaffoldModes:AAC
-Scaffold:ScaffoldShow in List:true
 KillSults~false
 KillSults:KillSultsShow in List:true
 Aura~true
-Aura:AuraAuto block:true
+Aura:AuraAuto block:false
 Aura:AuraSwitch:true
 Aura:AuraPredict:false
 Aura:AuraAimlock:false
@@ -187,7 +187,6 @@ Aura:AuraRaycast:true
 Aura:AuraThrough walls:false
 Aura:AuraStrafing:false
 Aura:AuraNo swing:false
-Aura:AuraGomme:false
 Aura:AuraStop sprint:false
 Aura:AuraInfo:true
 Aura:AuraClose screen:false
@@ -196,7 +195,7 @@ Aura:AuraFail hit:false
 Aura:AuraPlayers:true
 Aura:AuraAnimals:false
 Aura:AuraMobs:false
-Aura:AuraRange:4.3
+Aura:AuraRange:4.1
 Aura:AuraMax CPS:13.0
 Aura:AuraMin CPS:8.0
 Aura:AuraMax turn speed:180.0
@@ -253,6 +252,9 @@ Teams~false
 Teams:TeamsShow in List:true
 NoBob~false
 NoBob:NoBobShow in List:true
+Speed~false
+Speed:SpeedModes:CubecraftHop
+Speed:SpeedShow in List:true
 Tower~false
 Tower:TowerSilent:true
 Tower:TowerTimer:false
@@ -263,9 +265,6 @@ Tower:TowerDelay:96.0
 Tower:TowerTimer speed:3.4
 Tower:TowerModes:Cubecraft
 Tower:TowerShow in List:true
-NoFall~false
-NoFall:NoFallModes:CubeCraft
-NoFall:NoFallShow in List:true
 Strafe~false
 Strafe:StrafeShow in List:true
 Reach~false
