@@ -7,36 +7,26 @@ Velocity:VelocityModes:AAC Push
 Velocity:VelocityHorizontal:0.8
 Velocity:VelocityVertical:0.8
 Velocity:VelocityShow in List:true
-ChestESP~true
-ChestESP:ChestESPHive chests:false
-ChestESP:ChestESPModes:Outline
-ChestESP:ChestESPClient color:false
-ChestESP:ChestESPWidth:1.5
-ChestESP:ChestESPAlpha:50.0
-ChestESP:ChestESPShow in List:true
 ChestStealer~true
 ChestStealer:ChestStealerClose screen:true
 ChestStealer:ChestStealerCheck name:true
 ChestStealer:ChestStealerDelay:0.0
 ChestStealer:ChestStealerOpening delay:200.0
 ChestStealer:ChestStealerShow in List:true
-NoFall~false
-NoFall:NoFallModes:HiveMC
-NoFall:NoFallShow in List:true
 RenderChanger~false
-RenderChanger:RenderChangerItem to view:true
-RenderChanger:RenderChangerHigher held item:true
+RenderChanger:RenderChangerItem to view:false
+RenderChanger:RenderChangerHigher held item:false
 RenderChanger:RenderChangerLittle entities:false
 RenderChanger:RenderChangerFlip entities:false
-RenderChanger:RenderChangerBig heads:false
-RenderChanger:RenderChangerItem block:false
-RenderChanger:RenderChangerShow in List:true
+RenderChanger:RenderChangerBig heads:true
+RenderChanger:RenderChangerItem block:true
+RenderChanger:RenderChangerShow in List:false
 EntityESP~true
 EntityESP:EntityESPPlayers:true
 EntityESP:EntityESPAnimals:true
 EntityESP:EntityESPMobs:true
 EntityESP:EntityESPItems:true
-EntityESP:EntityESPClient color:false
+EntityESP:EntityESPClient color:true
 EntityESP:EntityESPModes:CSGO
 EntityESP:EntityESPWidth:1.5
 EntityESP:EntityESPAlpha:50.0
@@ -59,17 +49,17 @@ TerrainSpeed~false
 TerrainSpeed:TerrainSpeedKeep speed:true
 TerrainSpeed:TerrainSpeedFactor:0.8
 TerrainSpeed:TerrainSpeedShow in List:true
-BlockOverlay~false
-BlockOverlay:BlockOverlayDepth:false
-BlockOverlay:BlockOverlayShow in List:true
 InfiniteReach~false
 InfiniteReach:InfiniteReachHit delay:300.0
-InfiniteReach:InfiniteReach:true
+InfiniteReach:InfiniteReachAura:true
 InfiniteReach:InfiniteReachBlockPos:false
 InfiniteReach:InfiniteReachAura players:true
 InfiniteReach:InfiniteReachAura animals:false
 InfiniteReach:InfiniteReachAura mobs:false
 InfiniteReach:InfiniteReachShow in List:true
+BlockOverlay~false
+BlockOverlay:BlockOverlayDepth:false
+BlockOverlay:BlockOverlayShow in List:true
 EnemyFinder~false
 EnemyFinder:EnemyFinderUpdate delay:1000.0
 EnemyFinder:EnemyFinderShow in List:true
@@ -88,28 +78,35 @@ DeathSpawn:DeathSpawnTries:5.0
 DeathSpawn:DeathSpawnShow in List:true
 NoPitchLimit~false
 NoPitchLimit:NoPitchLimitShow in List:true
-WaterSpeed~false
-WaterSpeed:WaterSpeedShow in List:true
 DamageHits~true
 DamageHits:DamageHitsShow in List:true
+WaterSpeed~false
+WaterSpeed:WaterSpeedShow in List:true
+ChestESP~true
+ChestESP:ChestESPHive chests:false
+ChestESP:ChestESPModes:2D
+ChestESP:ChestESPClient color:false
+ChestESP:ChestESPWidth:1.5
+ChestESP:ChestESPAlpha:50.0
+ChestESP:ChestESPShow in List:true
+PotionSaver~false
+PotionSaver:PotionSaverShow in List:true
 ItemPhysics~true
 ItemPhysics:ItemPhysicsShow in List:true
 NoInvisibles~false
 NoInvisibles:NoInvisiblesShow in List:true
-PotionSaver~false
-PotionSaver:PotionSaverShow in List:true
 Scaffold~false
 Scaffold:ScaffoldSprint:false
-Scaffold:ScaffoldSneak:false
-Scaffold:ScaffoldSilent:true
+Scaffold:ScaffoldSneak:true
+Scaffold:ScaffoldSilent:false
 Scaffold:ScaffoldJitter:false
 Scaffold:ScaffoldTimer:false
 Scaffold:ScaffoldNo swing:false
 Scaffold:ScaffoldDisplay block count:true
-Scaffold:ScaffoldDelay:245.0
-Scaffold:ScaffoldTimer speed:6.0
+Scaffold:ScaffoldDelay:0.0
+Scaffold:ScaffoldTimer speed:0.1
 Scaffold:ScaffoldJitter factor:0.3
-Scaffold:ScaffoldModes:AAC
+Scaffold:ScaffoldModes:NCP
 Scaffold:ScaffoldShow in List:true
 Trajectories~true
 Trajectories:TrajectoriesShow in List:true
@@ -145,25 +142,25 @@ ChestAura~false
 ChestAura:ChestAuraRange:4.0
 ChestAura:ChestAuraThrough walls:false
 ChestAura:ChestAuraShow in List:true
-Nametags~true
+Nametags~false
 Nametags:NametagsMax size:1.0
 Nametags:NametagsShow in List:true
 RearView~false
 RearView:RearViewShow in List:true
 FullBright~true
 FullBright:FullBrightShow in List:true
-Safewalk~false
-Safewalk:SafewalkShow in List:true
 FreeCam~false
 FreeCam:FreeCamNoClip:true
 FreeCam:FreeCamShow in List:true
+Safewalk~false
+Safewalk:SafewalkShow in List:true
 CubeClip~false
 CubeClip:CubeClipShow in List:true
-AutoPlay~true
-AutoPlay:AutoPlayShow in List:true
 AutoTool~true
 AutoTool:AutoToolSilent:true
 AutoTool:AutoToolShow in List:true
+AutoPlay~true
+AutoPlay:AutoPlayShow in List:true
 CamClip~false
 CamClip:CamClipShow in List:true
 Teleport~false
@@ -180,7 +177,7 @@ ClickGui:ClickGuiTheme:Dark
 ClickGui:ClickGuiShow in List:true
 KillSults~false
 KillSults:KillSultsShow in List:true
-Aura~true
+Aura~false
 Aura:AuraAuto block:true
 Aura:AuraSwitch:true
 Aura:AuraPredict:true
@@ -190,7 +187,6 @@ Aura:AuraRaycast:true
 Aura:AuraThrough walls:true
 Aura:AuraStrafing:false
 Aura:AuraNo swing:false
-Aura:AuraGomme:false
 Aura:AuraStop sprint:false
 Aura:AuraInfo:true
 Aura:AuraClose screen:false
@@ -210,23 +206,23 @@ Aura:AuraWall range:2.0
 Aura:AuraRandom Factor:1.0
 Aura:AuraESP modes:None
 Aura:AuraShow in List:true
-Step~false
-Step:StepHeight:1.0
-Step:StepLadders:false
-Step:StepShow in List:true
 FastUse~false
 FastUse:FastUseNot moving:true
 FastUse:FastUsePackets:1.0
 FastUse:FastUseShow in List:true
-Tracers~false
-Tracers:TracersFeet:false
-Tracers:TracersOutlined:false
-Tracers:TracersShow in List:true
+Step~false
+Step:StepHeight:1.0
+Step:StepLadders:false
+Step:StepShow in List:true
 NoSlow~true
 NoSlow:NoSlowStrafe factor:0.6
 NoSlow:NoSlowForward factor:0.6
 NoSlow:NoSlowPacket:false
 NoSlow:NoSlowShow in List:true
+Tracers~false
+Tracers:TracersFeet:false
+Tracers:TracersOutlined:true
+Tracers:TracersShow in List:true
 Friends~false
 Friends:FriendsCancel attacks:true
 Friends:FriendsShow in List:true
@@ -254,7 +250,7 @@ Fucker:FuckerRange:4.0
 Fucker:FuckerShow in List:true
 Teams~false
 Teams:TeamsShow in List:true
-NoBob~true
+NoBob~false
 NoBob:NoBobShow in List:true
 Tower~false
 Tower:TowerSilent:true
@@ -262,10 +258,13 @@ Tower:TowerTimer:false
 Tower:TowerAuto centering:true
 Tower:TowerNo swing:false
 Tower:TowerDisplay block count:true
-Tower:TowerDelay:96.0
+Tower:TowerDelay:980.0
 Tower:TowerTimer speed:2.0
-Tower:TowerModes:Jump
+Tower:TowerModes:Motion
 Tower:TowerShow in List:true
+NoFall~false
+NoFall:NoFallModes:HiveMC
+NoFall:NoFallShow in List:true
 Strafe~false
 Strafe:StrafeShow in List:true
 Reach~false
